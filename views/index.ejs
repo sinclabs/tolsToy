@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>tolsToy</title>
+    <% include Partials/Stylesheets %>
+  </head>
+  <body>
+  
+  <% if(Page === "input") { %>
+  <div id="saga" class="bg"></div>
+  <div id="sparkles" class="sparkles"></div>
+  <div id="inputDiv">
+    <input type="submit" id="strBtn" value="Press and Hold Spacebar to Start Magic" style="color:#fff; cursor: default;"/>
+  </div>
+  <% } %>
+  
+  <% include Partials/Javascripts %>
+  </body>
+</html>
