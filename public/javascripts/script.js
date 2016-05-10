@@ -23,7 +23,6 @@ window.onload = function() {
           scale: 0,
           size: 2,
           respondsToMouse: false
-          
       }
     }
   ];
